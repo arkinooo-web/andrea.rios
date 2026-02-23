@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Andrea <Rios class="html"></Rios></title>
+
+    <style>
+        body {
+            background-color: lightyellow;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 { color: darkblue; }
+        h2 { color: darkgreen; }
+        h3 { color: purple; }
+        h4 { color: brown; }
+        h5 { color: orange; }
+        h6 { color: red; }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Date and Day -->
+    <h3 id="date"></h3>
+
+    <script>
+        const today = new Date();
+        document.getElementById("date").innerHTML = 
+            "Today is: " + today.toDateString();
+    </script>
+
+    <!-- About Me Section -->
+    <h1>My Name is Andrea</h1>
+    <h2>I am a Student</h2>
+    <h3>Future Educator</h3>
+    <h4>I enjoy Music</h4>
+    <h5>I love Dancing and discovering new things</h5>
+    <h6>This is my Project </h6>
+
+    <!-- Your Image -->
+    <h2>My Photo</h2>
+    <img src="636743040_2403247050107882_8188399879576971197_n.jpg" alt="My Picture">
+
+    <!-- Audio -->
+    <h2>My Favorite Music</h2>
+    <audio controls>
+        <source src="Bruno Mars - It Will Rain [Audio] [LMnPwyu-EcQ].mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <!-- Video -->
+    <h2>My Video</h2>
+    <video width="400" controls>
+        <source src="AQMbpFkWoA8xulIadD7qDbrCHNTFf_tTrDLzkpPNYkUTFJho3cHE7nz9Bip0PUyclvRRCtwwfoJfLd3xyqJndKvnqp9F3vkI4pffuadnVfH8jA.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+</body>
+</html>
